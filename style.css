@@ -36,6 +36,8 @@ main {
     padding: 0px;
     border-radius: 5px;
     box-shadow: 5px, black;
+    justify-content: center;
+    align-items: center;
 }
 
 main > h1 {
