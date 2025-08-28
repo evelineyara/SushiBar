@@ -9,7 +9,9 @@ body {
 header {
     background-color: black;
     color: white;
-    padding: 5px 5px 15px 5px;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 5px,black;
 }
 
 nav {
@@ -31,7 +33,9 @@ main {
     background-color: rgba(0, 0, 0, 0.637);
     color: white;
     text-align: center;
-    padding: 5px 15px 15px 15px;
+    padding: 0px;
+    border-radius: 5px;
+    box-shadow: 5px, black;
 }
 
 main > h1 {
@@ -46,6 +50,8 @@ main > img {
 footer {
     background-color: black;
     color: white;
-    padding: 5px 5px 15px 5px;
+    padding: 10px;
     text-align: center;
+    border-radius: 5px;
+    box-shadow: 5px, black;
 }
