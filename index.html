@@ -6,6 +6,31 @@
     <title>SushiBar</title>
     <link rel="shortcut icon" href="sushiicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
+    <style>
+        div.quadrado {
+            border: 1px solid black;
+            display: inline-block;
+            width: 200px;
+            height: 200px;
+            border-radius: 10px;
+        }
+
+        div#q1 {
+            background-image: url(imagens/ramen-p.jpg);
+        }
+
+        div#q2 {
+            background-image: url(imagens/poke-p.jpg);
+            background-position: center center;
+        }
+
+
+        div#q3 {
+            background-image: url(imagens/sushi01-p.jpg);
+            background-position: center;
+        }
+
+    </style>
 </head>
 <body>
     <header>
@@ -15,7 +40,7 @@
         </h1>
     </header>
     <nav>
-        <strong><a href="index.html">MENU</a></strong> <strong><a href="pagina02.html" target="_blank">CARDÁPIO</a></strong> <strong><a href="pagina02.html" target="_blank">PEDIR AGORA</a></strong>
+        <strong><a href="index.html">MENU</a></strong> <strong><a href="pagina02.html" target="_blank">CARDÁPIO</a></strong> <strong><a href="pagina03.html" target="_blank">PEDIR AGORA</a></strong>
     </nav>
     <br>
     <article>
@@ -29,16 +54,15 @@
             <h3>Somos mais do que um restaurante japones, somos o SushiBar!</h3>
         </main>
     </article>
-    <aside> <!--colocar imagens de sushis em quadradinhos, criar um style local para fazer isso.-->
-        <div id="quadrado 01"></div> 
-        <div id="quadrado 02"></div>
-        <div id="quadrado 03"></div>
-        <div id="quadrado 04"></div>
+    <aside>
+        <div class="quadrado" id="q1"></div> 
+        <div class="quadrado" id="q2"></div>
+        <div class="quadrado" id="q3"></div>
     </aside>
     <footer>
         <h2>Fale Conosco</h2>
         <p>
-            <strong><a href="pagina02.html" target="_blank">WHATSAPP</a></strong> <strong><a href="https://instagram.com/gh0st_evi" target="_blank">INSTAGRAM</a></strong> <strong><a href="pagina02" target="_blank">IFOOD</a></strong>
+            <strong><a href="pagina03.html" target="_blank">WHATSAPP</a></strong> <strong><a href="https://instagram.com/gh0st_evi" target="_blank">INSTAGRAM</a></strong> <strong><a href="pagina03.html" target="_blank">IFOOD</a></strong>
         </p>
         <p>Site criado por <strong><a href="https://github.com/evelineyara" target="_blank">Evelin Nayara</a></strong></p>
     </footer>

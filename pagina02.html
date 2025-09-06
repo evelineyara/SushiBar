@@ -6,19 +6,57 @@
     <title>SushiBar</title>
     <link rel="shortcut icon" href="sushiicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
+    <style>
+        div.quadrado {
+            display: inline-block;
+            border: 1px solid black;
+            width: 400px;
+            height: 400px;
+            border-radius: 10px;
+        }
+    </style>
 </head>
 <body>
     <header>
-        <h1>SushiBar</h1>
+        <h1>
+            <img src="imagens/logo.png" alt="logo SushiBar">
+            SushiBar
+        </h1>
     </header>
     <nav>
-        <strong><a href="index.html">MENU</a></strong> <strong><a href="pagina02.html" target="_blank">CARDÁPIO</a></strong> <strong><a href="pagina02.html" target="_blank">PEDIR AGORA</a></strong>
+        <strong><a href="index.html">MENU</a></strong> <strong><a href="pagina02.html" target="_blank">CARDÁPIO</a></strong> <strong><a href="pagina03.html" target="_blank">PEDIR AGORA</a></strong>
     </nav>
     <br>
+
     <main>
-        <h1>Em Breve</h1>
-        <p>Para saber mais, nos acompanhe no <a href="https://instagram.com/gh0st_evi">Instagram</a>!</p>
+        <article class="principal">
+            <h1>Cardápio</h1>
+            <div class="quadrado" id="q1">
+                <h3>Sushi salmão</h3>
+                <img src="imagens/sushi01-p.jpg" alt="Sushi salmão">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae magnam aliquam repellat neque natus hic adipisci, error unde omnis iste fugit, officiis nam doloribus? Iste exercitationem neque temporibus quaerat aliquid!</p>
+            </div>
+
+            <div class="quadrado" id="q2">
+                <h3>Hot Filadélfia</h3>
+                <img src="imagens/sushi02-p.jpg" alt="hot Filadélfia">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque corporis dolor, possimus praesentium excepturi maiores vel quia, et voluptatum, dicta veniam eum. Perferendis doloremque expedita illo similique autem</p>
+            </div>
+
+            <div class="quadrado" id="q3">
+                <h3>Rámen</h3>
+                <img src="imagens/ramen-p.jpg" alt="Rámen">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero possimus aperiam quia adipisci dolorem ex ad perferendis dignissimos voluptates! Reprehenderit sequi quis tempora ea, maxime quae repellat quia accusamus dolores!</p>
+            </div>
+
+            <div class="quadrado" id="q4">
+                <h3>Poke</h3>
+                <img src="imagens/poke-p.jpg" alt="Poke">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis nam tempora ratione minus autem quos consectetur reprehenderit harum sapiente, rem sint debitis</p>
+            </div>
+        </article>
     </main>
+
     <footer>
         <p>Site criado por <strong><a href="https://github.com/evelineyara" target="_blank">Evelin Nayara</a></strong></p>
     </footer>
