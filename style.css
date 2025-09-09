@@ -5,18 +5,16 @@
 :root {
    --font-padrão:"Nunito", sans-serif;
 
-   --font-especial01:"Mansalva", sans-serif;
-
-   --font-especial02:"Shadows Into Light Two", cursive, sans-serif;
+   --font-especial:"Mansalva", sans-serif;
 }
 
 h1 {
-    font-family: var(--font-especial01);
+    font-family: var(--font-especial);
     font-weight: normal;
 }
 
 h2 {
-    font-family: var(--font-especial01);
+    font-family: var(--font-especial);
     font-weight: normal;
 }
 
@@ -39,28 +37,25 @@ body {
 }
 
 header {
-    background-color: rgb(0, 0, 0);
-    align-items: center;
+    background-color:black;
     text-align: center;
     border-radius: 10px;
     color: white;
     height: 85px;
     width: auto;
-    margin-top: 10px;
+    padding-bottom: 15px;
     box-shadow: 10px black;
 }
 
 nav {
-    background-color: rgb(0, 0, 0);
-    align-items: center;
+    background-color: black;
     text-align: center;
-    color: white;
-    height: 50px;
+    height: 60px;
     width: auto;
     margin-top:-5px;
     margin-bottom: 15px;
     border-radius: 0px 0px 10px 10px;
-    word-spacing: 10px;
+    word-spacing: 15px;
 }
 
 nav a {
@@ -70,17 +65,17 @@ nav a {
 
 nav a:hover {
     color: rgb(160, 0, 0);
-    transition-duration: 0.3s;
+    transition-duration: 0.4s;
 }
 
 main {
-    background-color: rgba(0, 0, 0, 0.555);
+    background-image: linear-gradient(to bottom, black, rgba(255, 94, 0, 0.281));
     border-radius: 10px;
     box-shadow: 15px black;
     margin: auto;
+    padding-top: 60px;
+    padding-bottom: 50px;
     text-align: center;
-    align-items: center;
-    padding: 50px;
     color: white;
 }
 
@@ -89,14 +84,42 @@ main h1 {
 }
 
 main img {
-    border-radius: 10px;
+    border-radius: 15px;
 }
 
 main a {
-    color: rgb(255, 167, 167);
+    color: rgb(255, 130, 130);
 }
 
 main a:hover {
-    color: rgb(255, 0, 0);
+    color: darkred;
     transition-duration: 0.3s;
+}
+
+footer {
+    background-color:black;
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+    height: 85px;
+    width: auto;
+    padding-bottom: 15px;
+    box-shadow: 10px black;
+}
+
+footer p {
+    background-color:black;
+    text-align: center;
+    color: white;
+    width: auto;
+    padding-top: 20px;
+}
+
+footer a {
+    color: white;
+}
+
+footer a:hover {
+    color: darkred;
+    transition-duration: 0.4s;
 }
