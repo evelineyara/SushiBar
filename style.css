@@ -65,7 +65,7 @@ nav a {
 
 nav a:hover {
     color: rgb(160, 0, 0);
-    transition-duration: 0.4s;
+    transition-duration: 0.5s;
 }
 
 main {
@@ -121,5 +121,5 @@ footer a {
 
 footer a:hover {
     color: darkred;
-    transition-duration: 0.4s;
+    transition-duration: 0.5s;
 }
